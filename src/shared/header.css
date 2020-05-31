@@ -1,0 +1,19 @@
+body {
+
+   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.example {
+   text-align: center;
+   color: red;
+}
+.trainmove{
+   position: relative;
+   width: 8rem;
+   height: 8rem;
+   animation: left 8s ease-in infinite;
+ }
+@keyframes left {
+   from { left: -150px}
+   to {left: 100%;
+   opacity: 0.5};
+}
